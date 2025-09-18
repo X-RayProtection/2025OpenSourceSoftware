@@ -1,2 +1,2 @@
-#2025 Open Source Software
+#2025 Open Source Software (09. 18.)
 
