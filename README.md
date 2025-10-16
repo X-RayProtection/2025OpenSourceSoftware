@@ -1,3 +1,5 @@
-# 2025 Open Source Software (10. 02.)
+# 오픈소스 소프트웨어 강의 실습
+- 날짜 : 2025년 10월 16일
+- 강의 내용 : 표준 폴더 구조
+- 실습 내용 : markdown, 정규표현, 표준폴더
 
-This version is on 3way
