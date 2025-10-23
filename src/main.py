@@ -27,6 +27,7 @@ def monthToWord(int n):
 
 def addDay(int n):
     day += n
+    smaller = [4, 6, 9, 11]
     while(day > 28 or month > 12):
         if (month >= 13):
             month -= 12
@@ -35,8 +36,12 @@ def addDay(int n):
         if (day >= 29 and month == 2):
             day -= 28
             month += 1
-        elif (day >= 32):
+        elif (day >= 31 and month is in smaller):
+            day -= 30
+            month += 1
+        elif (day >= 31):
             day -= 31
             month += 1
+        else: break
 
 print(f"{monthToWord(month)} {day}, {year}")
